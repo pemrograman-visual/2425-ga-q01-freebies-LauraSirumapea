@@ -13,7 +13,6 @@ public class X01 {
         totaltransaksi = 0;
         hargabuku = 0;
         palingmurah = 999;
-        hargaakhir = 0;
         hargabuku = Double.parseDouble(input.nextLine());
         while (hargabuku != 0) {
             if (palingmurah <= hargabuku) {
@@ -36,3 +35,4 @@ public class X01 {
         return String.format("%." + digits + "f", value);
     }
 }
+
